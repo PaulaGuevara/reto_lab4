@@ -1,13 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-SECOP_II_Contratos_Electronicos_20260126.csv
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
 
-data/
-*.csv
-*.parquet
-*.crc
+# Data files
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/
+*.log
 
-# Spark / Delta Lake
-**/_delta_log/
+# MLflow
+mlruns/
+mlartifacts/
 
-# Jupyter
-**/.ipynb_checkpoints/
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+*.log
+
+# Docker
+.dockerignore
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
